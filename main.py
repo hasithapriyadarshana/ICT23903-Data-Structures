@@ -1,7 +1,6 @@
 import array_add as add
 arr1=[10,20,30,40,50,60,70,80,90,100,110]
 arr2=[23,34,12,93,23,45,39,48,8,1,5,2,77]
-
 def leaner_search(arr1):
     target=int(input(f"Enter your Target : "))
     a=0
@@ -79,13 +78,14 @@ def quick_sort(arr):
             quicksort(arr, low, pi - 1)
             quicksort(arr, pi + 1, high)
     # Initial call
-    quicksort(arr, 0, len(arr) - 1)
+    quicksort(arr2, 0, len(arr) - 1)
+    print(arr)
 
 #add.array_adding(arr1)
 #leaner_search(arr1)
 #binary_search(arr1)
 #merge_sort(arr2)
-quick_sort(arr2)
+#quick_sort(arr2)
 #print(arr2)
 
 
