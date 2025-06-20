@@ -1,6 +1,7 @@
 import array_add as add
 arr1=[10,20,30,40,50,60,70,80,90,100,110]
 arr2=[23,34,12,93,23,45,39,48,8,1,5,2,77]
+
 def leaner_search(arr1):
     target=int(input(f"Enter your Target : "))
     a=0
